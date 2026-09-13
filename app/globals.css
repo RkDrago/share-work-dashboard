@@ -13,5 +13,27 @@ body {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #0b0b0d;
+  /* background: #0b0b0d; */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 7px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  cursor: grab;
+  background: rgba(128, 128, 128, 0.712);
+  border-radius: 999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: gray;
 }
