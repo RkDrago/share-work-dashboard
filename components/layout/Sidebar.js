@@ -169,7 +169,7 @@ export default function Sidebar({sidebarOpen, setSidebarOpen}) {
           {/* Avatar */}
           <div className="h-7 w-7 shrink-0 overflow-hidden rounded-full bg-[#27272a]">
             <img
-              src="/admin-avatar.jpg"
+              src="https://img.magnific.com/free-photo/3d-cartoon-portrait-person-practicing-law-related-profession_23-2151419548.jpg?semt=ais_hybrid&w=740&q=80"
               alt="Admin User"
               className="h-full w-full object-cover"
             />
